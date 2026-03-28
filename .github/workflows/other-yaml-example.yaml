@@ -1,0 +1,78 @@
+# ================================================================
+# SAMPLE: Azure DevOps Pipeline
+# PURPOSE: Intentionally contains secret hygiene violations
+#          for LLM scanning demo.
+# ================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+      - develop
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  # ❌ VIOLATION: Plain-text connection strings in variables block
+  sqlConnectionString: "Server=tcp:prod-sqlserver-eastus.database.windows.net,1433;Initial Catalog=MyAppDB_Production;Persist Security Info=False;User ID=dbadmin;Password=Pr0d@dm1nP@ss!;MultipleActiveResultSets=False;Encrypt=True;"
+
+  # ❌ VIOLATION: Hardcoded ACR credentials
+  containerRegistryUrl: "mycompanyprod.azurecr.io"
+  containerRegistryUser: "mycompanyprod"
+  containerRegistryPassword: "ACR+P@ssw0rd+Here+Secret"
+
+  # ❌ VIOLATION: Environment-specific naming (blocks pipeline reuse)
+  environment: "production"
+  resourceGroup: "rg-myapp-production-westeurope"
+  aksClusterName: "aks-myapp-production-cluster"
+  acrName: "mycompanyprodacr"
+
+stages:
+  - stage: Build
+    displayName: "Build & Test"
+    jobs:
+      - job: BuildJob
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: "3.11"
+
+          - script: pip install -r requirements.txt
+            displayName: "Install Dependencies"
+
+          - script: pytest --cov=src tests/
+            displayName: "Run Tests"
+            env:
+              # ❌ VIOLATION: Third-party API keys in plain text
+              TWILIO_ACCOUNT_SID: "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+              TWILIO_AUTH_TOKEN: "your_auth_token_here_1234567890ab"
+              AWS_ACCESS_KEY_ID: "AKIAIOSFODNN7EXAMPLE"
+              AWS_SECRET_ACCESS_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+  - stage: Deploy
+    displayName: "Deploy to Production"
+    dependsOn: Build
+    jobs:
+      - deployment: DeployAKS
+        environment: production
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureCLI@2
+                  inputs:
+                    azureSubscription: "MyAzureServiceConnection"
+                    scriptType: "bash"
+                    scriptLocation: "inlineScript"
+                    inlineScript: |
+                      # ❌ VIOLATION: Hardcoded PAT token in script
+                      echo "Logging into ACR..."
+                      docker login mycompanyprod.azurecr.io \
+                        -u mycompanyprod \
+                        -p "ACR+P@ssw0rd+Here+Secret"
+
+                      # ❌ VIOLATION: GitHub PAT hardcoded
+                      git clone https://ghp_1234567890abcdef1234567890abcdef12345678@github.com/myorg/myrepo.git
+
+                      kubectl apply -f k8s/

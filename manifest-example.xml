@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest>
+<package major-minor-cadence="27.27.181.4p0" manifest-uid="ae57b116-0daf-47e9-9ee8-4a3055719623" recipe-name="ECS-REF-BLD_MultiCompEnv" recipe-version="26.26.177.0p0_20241012" rtc-ticket="JIRA: STINGRAY-1337"/>
+<remote fetch="https://github.com/GM-SDV-EP/" name="origin_github_GM-SDV-EP" review="https://github.com/GM-SDV-EP/"/>
+<default remote="origin_github_GM-SDV-EP" sync-j="4"/>
+<project name="ECS-ImpArch-HWE_FI_BatterySystemDiscreteOut" path="ImpArch/HWE_FI_BatterySystemDiscreteOut" revision="refs/tags/26.26.180.4p0_20250506" version-override="false"/>
+<project name="ECS-ImpArch-LIB_SWIL_CFG_INCL" path="ImpArch/SWIL_CFG_INCL" revision="refs/tags/25.25.175.2p0_20240409" version-override="false"/>
+<project name="ECS-ImpArch-SLTN_BevHeat" path="ImpArch/SLTN_BevHeat" revision="refs/tags/27.27.181.4p0_20250708_1" version-override="false"/>
+<project name="ECS-ImpArch-SWC_LIBR_Timers_DSC" path="ImpArch/SWC_LIBR_Timers_DSC" revision="refs/tags/20.20.139.0p0_20230906" version-override="false"/>
+<project name="ECS-LIB-HWLB_FUNC" path="ImpArch/HWLB_FUNC" revision="refs/tags/24.24.172.4p0_20241112" version-override="false"/>
+<project name="ECS-LIB-HWLB_TYP" path="ImpArch/HWLB_TYP" revision="refs/tags/23.23.153.0p0_20200507" version-override="false"/>
+<project name="ECS-LIB-LIB_BddUTest_TST" path="tool/LIB_BddUTest_TST" revision="refs/tags/00.00.181.0p0_20250625_1" version-override="false"/>
+<project name="ECS-LIB-LIB_CYPH_IF" path="ImpArch/CYPH_IF" revision="refs/tags/21.21.143.0p0_20181115" version-override="false"/>
+<project name="ECS-LIB-LIB_FLTR_FUNC_SRC" path="ImpArch/FLTR_FUNC" revision="refs/tags/26.26.181.2p0_20250623" version-override="false"/>
+<project name="ECS-LIB-LIB_LIBR_FUNC_SRC" path="ImpArch/LIBR_FUNC" revision="refs/tags/26.26.181.2p0_20250611" version-override="false"/>
+<project name="ECS-LIB-LIB_POD_CommonFUNC_TST" path="LIB/LIB_POD_CommonFUNC_TST" revision="refs/tags/27.27.179.3p0_20250226" version-override="false"/>
+<project name="ECS-LIB-LIB_UTLR_FUNC_SRC" path="ImpArch/UTLR_FUNC" revision="refs/tags/24.24.167.2p0_20220830_2" version-override="false"/>
+<project name="ECS-LIB-LIB_VCTR_FUNC_SRC" path="ImpArch/VCTR_FUNC" revision="refs/tags/23.23.167.4p0_20220922" version-override="false"/>
+<project name="ECS-ML-TOOL_Master_Lists_Calibration" path="ImpArch/Master_Lists_Calibration" revision="refs/tags/00.00.181.4p0_20250708_3" version-override="false"/>
+<project name="ECS-ML-TOOL_Master_Lists_Diagnostic" path="ImpArch/Master_Lists_Diagnostic" revision="refs/tags/27.27.181.3p0_20250627" version-override="false"/>
+<project name="ECS-ML-TOOL_Master_Lists_MMT" path="ImpArch/Master_Lists_MMT" revision="refs/tags/27.27.180.4p0_20250430" version-override="false"/>
+<project name="ECS-ML-TOOL_Master_Lists_RSMT_Calibration" path="ImpArch/Master_Lists_RSMT_Calibration" revision="refs/tags/26.26.181.4p0_20250707" version-override="false"/>
+<project name="ECS-ML-TOOL_Master_Lists_Service" path="ImpArch/Master_Lists_Service" revision="refs/tags/00.00.181.3p0_20250627" version-override="false"/>
+<project name="ECS-tool-TOOL_QTAP_TestMetricsBlockingCfgs" path="tool/TOOL_QTAP_TestMetricsBlockingCfgs" revision="refs/tags/27.27.181.0p0_20250611" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_ASTA" path="tool/TOOL_SBT_ASTA" revision="refs/tags/00.00.181.0p0_20250630" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_Bin" path="tool/Bin" revision="refs/tags/00.00.180.0p0_20250527" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_BuildScripts" path="tool/BuildScripts" revision="refs/tags/00.00.181.2p0_20250625" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_CSCPC" path="tool/CSCPC" revision="refs/tags/25.25.165.0p0_20220407_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_CSCP_stubs_test" path="ImpArch/CSCP_stubs_test" revision="refs/tags/17.17.114.0p0_20141022_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_CodeGenerationScripts" path="tool/CodeGenerationScripts" revision="refs/tags/00.00.181.0p0_20250708" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_Debugger" path="tool/Debugger" revision="refs/tags/00.00.118.0p0_20150319_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_ListsAndToolsCompatibility" path="tool/ListsAndToolsCompatibility" revision="refs/tags/00.00.118.0p0_20150320_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_Make_files" path="tool/Make_files" revision="refs/tags/27.27.181.0p0_20250618" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_SIL_Scripts" path="tool/SIL_Scripts" revision="refs/tags/00.00.176.4p0_20240814_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_TSKR_Config" path="tool/TSKR_Config" revision="refs/tags/00.00.167.4p0_20221031_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_UtilityScripts" path="tool/UtilityScripts" revision="refs/tags/00.00.181.2p0_20250708" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_XXXR_CFG" path="tool/XXXR_CFG" revision="refs/tags/27.27.181.0p0_20250707" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_XXXR_Test" path="tool/XXXR_Test" revision="refs/tags/24.24.175.0p0_20240509_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_perlGM" path="tool/perlGM" revision="refs/tags/00.00.170.1p0_20230323_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SBT_tool_data_lib" path="tool/tool_data_lib" revision="refs/tags/27.27.181.0p0_20250609" version-override="false"/>
+<project name="ECS-tool-TOOL_SSQ_BuildConfigCommon" path="tool/TOOL_SSQ_BuildConfigCommon" revision="refs/tags/00.00.180.0p0_20250708_1" version-override="false"/>
+<project name="ECS-tool-TOOL_SSQ_BuildConfigMetricStream" path="tool/TOOL_SSQ_BuildConfigMetricStream" revision="refs/tags/27.27.180.0p0_20250627" version-override="false"/>
+<project name="ECS-tool-TOOL_SSQ_BuildConfigStandardStream" path="tool/TOOL_SSQ_BuildConfigStandardStream" revision="refs/tags/27.27.180.0p0_20250708" version-override="false"/>
+<project name="ECS-tool-TOOL_SSQ_BuildScripts" path="tool/TOOL_SSQ_BuildScripts" revision="refs/tags/00.00.180.0p0_20250627" version-override="false"/>
+<project name="ECS-tool-TOOL_UTT_CppUTest" path="tool/TOOL_UTT_CppUTest" revision="refs/tags/00.00.181.0p0_20250625" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_DOM_EnergyAndDriveQuality" path="FuncArch/FTRM_DOM_EnergyAndDriveQuality" revision="refs/tags/27.27.181.1p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_DOM_OccupantComfort" path="FuncArch/FTRM_DOM_OccupantComfort" revision="refs/tags/24.24.171.0p0_20230417" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_DOM_VisibilityAndViewing" path="FuncArch/FTRM_DOM_VisibilityAndViewing" revision="refs/tags/23.23.164.0p0_20220111" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_FrontDefogAndDefrost" path="FuncArch/FTRM_FrontDefogAndDefrost" revision="refs/tags/27.27.181.1p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_Hierarchy" path="FuncArch/FTRM_Hierarchy" revision="refs/tags/24.24.171.0p0_20230418" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_HighVoltageVehicleCharging" path="FuncArch/FTRM_HighVoltageVehicleCharging" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_OccupantThermalComfort" path="FuncArch/FTRM_OccupantThermalComfort" revision="refs/tags/27.27.181.1p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_PropelVehicle" path="FuncArch/FTRM_PropelVehicle" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-FTRM_RearDefogAndDefrost" path="FuncArch/FTRM_RearDefogAndDefrost" revision="refs/tags/27.27.181.1p0_20250530" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-POD_SYS_bevHEATActuatorCommandsDiagnostics" path="FuncArch/POD_SYS_bevHEATActuatorCommandsDiagnostics" revision="refs/tags/27.27.178.3p0_20241121" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-POD_SYS_bevHEATArbitration" path="FuncArch/POD_SYS_bevHEATArbitration" revision="refs/tags/27.27.178.4p0_20241209" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-POD_SYS_bevHEATCoordination" path="FuncArch/POD_SYS_bevHEATCoordination" revision="refs/tags/27.27.179.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-POD_SYS_bevHEATSetpoint" path="FuncArch/POD_SYS_bevHEATSetpoint" revision="refs/tags/27.27.179.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-POD_SYS_bevHEATThermalDevices" path="FuncArch/POD_SYS_bevHEATThermalDevices" revision="refs/tags/27.27.179.0p0_20241210" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_BrakingeBoostUltifi" path="FuncArch/SYSM_BrakingeBoostUltifi" revision="refs/tags/27.27.181.1p0_20250612" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_CabinThermalEnergyManagement" path="FuncArch/SYSM_CabinThermalEnergyManagement" revision="refs/tags/27.27.180.3p0_20250613" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_CockpitDisplay" path="FuncArch/SYSM_CockpitDisplay" revision="refs/tags/27.27.179.0p0_20250124" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DOM_AccessAndSecurity" path="FuncArch/SYSM_DOM_AccessAndSecurity" revision="refs/tags/27.27.181.2p0_20250612" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DOM_EnergyAndDriveQuality" path="FuncArch/SYSM_DOM_EnergyAndDriveQuality" revision="refs/tags/27.27.180.4p0_20250512" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DOM_Infotainment" path="FuncArch/SYSM_DOM_Infotainment" revision="refs/tags/27.27.181.2p0_20250616" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DOM_OccupantComfort" path="FuncArch/SYSM_DOM_OccupantComfort" revision="refs/tags/27.27.180.3p0_20250521" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DOM_VehicleDynamics" path="FuncArch/SYSM_DOM_VehicleDynamics" revision="refs/tags/27.27.181.0p0_20250528" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DriverNotificationAlert" path="FuncArch/SYSM_DriverNotificationAlert" revision="refs/tags/27.27.179.0p0_20250128" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_DriverNotificationIndicator" path="FuncArch/SYSM_DriverNotificationIndicator" revision="refs/tags/27.27.179.0p0_20250128" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_ElectricPowerArchitecture" path="FuncArch/SYSM_ElectricPowerArchitecture" revision="refs/tags/27.27.179.0p0_20250205" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_EnergyConversionForVehicleMotion" path="FuncArch/SYSM_EnergyConversionForVehicleMotion" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HarmonizedEnhancedActiveThermalManagementConventional" path="FuncArch/SYSM_HarmonizedEnhancedActiveThermalManagementConventional" revision="refs/tags/27.27.179.0p0_20250131" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HarmonizedEnhancedActiveThermalManagementElectrification" path="FuncArch/SYSM_HarmonizedEnhancedActiveThermalManagementElectrification" revision="refs/tags/27.27.179.0p0_20250131" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_Hierarchy" path="FuncArch/SYSM_Hierarchy" revision="refs/tags/27.27.179.0p0_20250206" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageBatteryManagement" path="FuncArch/SYSM_HighVoltageBatteryManagement" revision="refs/tags/27.27.181.0p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageBusManagement" path="FuncArch/SYSM_HighVoltageBusManagement" revision="refs/tags/27.27.181.0p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageChargingCommunications" path="FuncArch/SYSM_HighVoltageChargingCommunications" revision="refs/tags/27.27.179.0p0_20250203" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageEnergyDistribution" path="FuncArch/SYSM_HighVoltageEnergyDistribution" revision="refs/tags/27.27.179.0p0_20250203" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageEnergyExternalInterface" path="FuncArch/SYSM_HighVoltageEnergyExternalInterface" revision="refs/tags/27.27.181.0p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageEnergyTransfer" path="FuncArch/SYSM_HighVoltageEnergyTransfer" revision="refs/tags/27.27.181.0p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageEnergyUserInterface" path="FuncArch/SYSM_HighVoltageEnergyUserInterface" revision="refs/tags/27.27.181.0p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_HighVoltageProgrammableCharging" path="FuncArch/SYSM_HighVoltageProgrammableCharging" revision="refs/tags/27.27.179.0p0_20250203" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_IncreasedCapabilityHEATElectrification" path="FuncArch/SYSM_IncreasedCapabilityHEATElectrification" revision="refs/tags/27.27.181.3p0_20250708" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_IntegratedVehicleDynamicsControl" path="FuncArch/SYSM_IntegratedVehicleDynamicsControl" revision="refs/tags/27.27.181.1p0_20250621" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_PowerModing" path="FuncArch/SYSM_PowerModing" revision="refs/tags/27.27.179.0p0_20250130" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_PropulsionLongitudinalMotionArbitration" path="FuncArch/SYSM_PropulsionLongitudinalMotionArbitration" revision="refs/tags/27.27.181.3p0_20250630" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_PropulsionModing" path="FuncArch/SYSM_PropulsionModing" revision="refs/tags/27.27.181.4p0_20250708" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_PropulsionTorqueOptimizationAndArbitration" path="FuncArch/SYSM_PropulsionTorqueOptimizationAndArbitration" revision="refs/tags/27.27.181.1p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_VehicleCustomization" path="FuncArch/SYSM_VehicleCustomization" revision="refs/tags/27.27.179.0p0_20250203" version-override="false"/>
+<project is-dependency="true" name="ECS-FuncArch-SYSM_VehicleDynamicsStateEstimator" path="FuncArch/SYSM_VehicleDynamicsStateEstimator" revision="refs/tags/27.27.181.1p0_20250707" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-CMPS_VFB" path="ImpArch/CMPS_VFB" revision="refs/tags/26.26.181.4p0_20250708" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-HWE_BSP_Interface_Hierarchy" path="ImpArch/HWE_BSP_Interface_Hierarchy" revision="refs/tags/23.23.152.0p0_20250326" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-HWE_BSP_Ring_Hierarchy" path="ImpArch/HWE_BSP_Ring_Hierarchy" revision="refs/tags/27.27.180.2p0_20250331" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-HWE_FI_RealTimeOpSystem" path="ImpArch/HWE_FI_RealTimeOpSystem" revision="refs/tags/24.24.171.0p0_20231130" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-HWE_FI_UART_InternalDeviceDriver" path="ImpArch/HWE_FI_UART_InternalDeviceDriver" revision="refs/tags/25.25.173.3p0_20231120" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATActuatorCommandsDiagnostics" path="ImpArch/POD_SW_bevHEATActuatorCommandsDiagnostics" revision="refs/tags/27.27.181.3p0_20250702" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATArbitration" path="ImpArch/POD_SW_bevHEATArbitration" revision="refs/tags/27.27.181.2p0_20250617_2" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATCoordination" path="ImpArch/POD_SW_bevHEATCoordination" revision="refs/tags/27.27.181.3p0_20250701_1" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATSetpoint" path="ImpArch/POD_SW_bevHEATSetpoint" revision="refs/tags/27.27.181.3p0_20250627" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATSupervision" path="ImpArch/POD_SW_bevHEATSupervision" revision="refs/tags/27.27.181.4p0_20250704" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_SW_bevHEATThermalDevices" path="ImpArch/POD_SW_bevHEATThermalDevices" revision="refs/tags/27.27.181.4p0_20250703" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATActuatorCommandsDiagnostics" path="ImpArch/POD_bevHEATActuatorCommandsDiagnostics" revision="refs/tags/27.27.179.3p0_20250214" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATArbitration" path="ImpArch/POD_bevHEATArbitration" revision="refs/tags/27.27.179.0p0_20241209" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATCoordination" path="ImpArch/POD_bevHEATCoordination" revision="refs/tags/27.27.179.3p0_20250213_1" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATSetpoint" path="ImpArch/POD_bevHEATSetpoint" revision="refs/tags/27.27.180.2p0_20250401" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATSupervision" path="ImpArch/POD_bevHEATSupervision" revision="refs/tags/27.27.179.3p0_20250213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-POD_bevHEATThermalDevices" path="ImpArch/POD_bevHEATThermalDevices" revision="refs/tags/27.27.179.3p0_20250214" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SAP_Hierarchy" path="ImpArch/SAP_Hierarchy" revision="refs/tags/27.27.178.0p0_20241017" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SAP_PRDT_PropulsionThermal" path="ImpArch/SAP_PRDT_PropulsionThermal" revision="refs/tags/27.27.181.0p0_20250623" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ABAR_AV_BrakArb" path="ImpArch/SIG_ABAR_AV_BrakArb" revision="refs/tags/24.26.178.3p0_20241120" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ABFR_AutonomousBodyFunctions" path="ImpArch/SIG_ABFR_AutonomousBodyFunctions" revision="refs/tags/24.26.176.4p0_20240809" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ACER_AirCondElectricCntrl" path="ImpArch/SIG_ACER_AirCondElectricCntrl" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ADIR_AV_DrvrInterference" path="ImpArch/SIG_ADIR_AV_DrvrInterference" revision="refs/tags/23.23.164.0p0_20220407" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_AFTR_CoolingAirFlowTarget" path="ImpArch/SIG_AFTR_CoolingAirFlowTarget" revision="refs/tags/26.27.181.0p0_20250521" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_APAR_AV_PropArb" path="ImpArch/SIG_APAR_AV_PropArb" revision="refs/tags/23.23.165.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_APMR_AccessoryPowerModule" path="ImpArch/SIG_APMR_AccessoryPowerModule" revision="refs/tags/27.27.181.1p1_20250613" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_APSR_AcceleratorPosition" path="ImpArch/SIG_APSR_AcceleratorPosition" revision="refs/tags/27.27.181.1p0_20250606" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ARRR_AV_RangeReq" path="ImpArch/SIG_ARRR_AV_RangeReq" revision="refs/tags/24.26.176.3p0_20240628" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ASRR_AV_SteeringReq" path="ImpArch/SIG_ASRR_AV_SteeringReq" revision="refs/tags/24.26.177.4p0_20240920" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_AVMR_AV_VehMode" path="ImpArch/SIG_AVMR_AV_VehMode" revision="refs/tags/24.26.178.3p0_20241120" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_AVTR_AutonomousVehicleThermalMgmt" path="ImpArch/SIG_AVTR_AutonomousVehicleThermalMgmt" revision="refs/tags/24.26.177.0p2_20240815" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BCCR_BatteryChargeControl" path="ImpArch/SIG_BCCR_BatteryChargeControl" revision="refs/tags/27.27.181.2p0_20250611" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BEER_BatteryEnergyEconomy" path="ImpArch/SIG_BEER_BatteryEnergyEconomy" revision="refs/tags/27.27.181.1p0_20250530" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BPDR_BatteryThermalPropagationDetection" path="ImpArch/SIG_BPDR_BatteryThermalPropagationDetection" revision="refs/tags/27.27.181.3p0_20250707" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BRKR_Brakes" path="ImpArch/SIG_BRKR_Brakes" revision="refs/tags/27.27.172.4p0_20230922" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BSER_BatteryStateEstimation" path="ImpArch/SIG_BSER_BatteryStateEstimation" revision="refs/tags/25.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BSFR_BlowerSpeedFeedback" path="ImpArch/SIG_BSFR_BlowerSpeedFeedback" revision="refs/tags/23.23.166.3p0_20220701" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_BTMR_BatteryThermalManagement" path="ImpArch/SIG_BTMR_BatteryThermalManagement" revision="refs/tags/25.26.177.0p0_20240723" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CACR_ContactorArbControl" path="ImpArch/SIG_CACR_ContactorArbControl" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CAH_CbnAirHndlng" path="ImpArch/SIG_CAH_CbnAirHndlng" revision="refs/tags/27.27.181.3p0_20250626_1" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CCE_CbnClimtEst" path="ImpArch/SIG_CCE_CbnClimtEst" revision="refs/tags/27.27.180.3p0_20250417" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CCNR_ChargeConnectivity" path="ImpArch/SIG_CCNR_ChargeConnectivity" revision="refs/tags/27.27.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CDTR_CalendarDateTime" path="ImpArch/SIG_CDTR_CalendarDateTime" revision="refs/tags/27.27.177.1p0_20240912" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CESR_ChargingEnergySettings" path="ImpArch/SIG_CESR_ChargingEnergySettings" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CET_CbnEvapTemp" path="ImpArch/SIG_CET_CbnEvapTemp" revision="refs/tags/24.26.181.0p0_20250516" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CHSR_ChargingStatus" path="ImpArch/SIG_CHSR_ChargingStatus" revision="refs/tags/27.27.181.3p0_20250628" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CMDR_ChargeModeDetermination" path="ImpArch/SIG_CMDR_ChargeModeDetermination" revision="refs/tags/24.24.159.0p0_20210225" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CMGR_CommunicationsManager" path="ImpArch/SIG_CMGR_CommunicationsManager" revision="refs/tags/27.27.178.2p6_20241111" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_CSWR_CruiseAutomationSW" path="ImpArch/SIG_CSWR_CruiseAutomationSW" revision="refs/tags/24.26.178.3p0_20241120" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_DFIR_DiagnosticFaultInfo" path="ImpArch/SIG_DFIR_DiagnosticFaultInfo" revision="refs/tags/27.27.181.1p0_20250625" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_DGPR_DiagnosticProxy" path="ImpArch/SIG_DGPR_DiagnosticProxy" revision="refs/tags/27.27.181.0p0_20250509" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_DICR_DisplayInfoControl" path="ImpArch/SIG_DICR_DisplayInfoControl" revision="refs/tags/27.27.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_DRER_DiagResetandEnable" path="ImpArch/SIG_DRER_DiagResetandEnable" revision="refs/tags/27.27.181.3p0_20250627" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_DSCR_DiagStandardConditions" path="ImpArch/SIG_DSCR_DiagStandardConditions" revision="refs/tags/27.27.181.0p0_20250515" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_EBAR_ExtBrkArb" path="ImpArch/SIG_EBAR_ExtBrkArb" revision="refs/tags/27.27.180.0p0_20250312" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_EIO_EthIO_Mapping" path="ImpArch/SIG_EIO_EthIO_Mapping" revision="refs/tags/27.27.181.3p0_20250627" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ENTR_Ethernet" path="ImpArch/SIG_ENTR_Ethernet" revision="refs/tags/27.27.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_FFRR_FreezeFrameFailRecord" path="ImpArch/SIG_FFRR_FreezeFrameFailRecord" revision="refs/tags/24.25.180.4p0_20250429" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HATR_HardwareTimer" path="ImpArch/SIG_HATR_HardwareTimer" revision="refs/tags/27.27.180.0p0_20250310" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HIPR_HighVoltageInterconnectProtection" path="ImpArch/SIG_HIPR_HighVoltageInterconnectProtection" revision="refs/tags/26.26.181.2p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HMD_HVAC_Mode" path="ImpArch/SIG_HMD_HVAC_Mode" revision="refs/tags/24.26.180.0p0_20250320" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HMI_HMI" path="ImpArch/SIG_HMI_HMI" revision="refs/tags/27.27.181.3p0_20250630" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HPMR_HybridPowerModing" path="ImpArch/SIG_HPMR_HybridPowerModing" revision="refs/tags/26.26.181.2p0_20250606" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HVAC_HVAC" path="ImpArch/SIG_HVAC_HVAC" revision="refs/tags/27.27.179.0p0_20241216" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HVCR_HVAC_Interface" path="ImpArch/SIG_HVCR_HVAC_Interface" revision="refs/tags/24.24.174.0p0_20240103" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_HVC_HVAC_Interface" path="ImpArch/SIG_HVC_HVAC_Interface" revision="refs/tags/27.27.180.4p0_20250508" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_IDCR_InterDeviceComms" path="ImpArch/SIG_IDCR_InterDeviceComms" revision="refs/tags/27.27.181.0p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_INF_Infrastructure" path="ImpArch/SIG_INF_Infrastructure" revision="refs/tags/24.24.176.4p0_20240805" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_JMPR_JumpAssist" path="ImpArch/SIG_JMPR_JumpAssist" revision="refs/tags/23.23.166.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_LBCR_LocBasedCharging" path="ImpArch/SIG_LBCR_LocBasedCharging" revision="refs/tags/27.27.178.4p0_20241203" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_LVTR_LowVoltage" path="ImpArch/SIG_LVTR_LowVoltage" revision="refs/tags/26.26.172.3p0_20230911" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_MCGR_MotorConfigurationRing" path="ImpArch/SIG_MCGR_MotorConfigurationRing" revision="refs/tags/23.23.155.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_MEMR_Memory" path="ImpArch/SIG_MEMR_Memory" revision="refs/tags/27.27.181.1p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_OATR_OutsideAirTemperature" path="ImpArch/SIG_OATR_OutsideAirTemperature" revision="refs/tags/26.26.181.1p0_20250527" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_ODCR_OffVehicleDeviceControl" path="ImpArch/SIG_ODCR_OffVehicleDeviceControl" revision="refs/tags/27.27.178.4p0_20241115" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_OFPR_ApplReprogramming" path="ImpArch/SIG_OFPR_ApplReprogramming" revision="refs/tags/27.27.181.3p0_20250619" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_OSAR_ApplOffVehSecurAccess" path="ImpArch/SIG_OSAR_ApplOffVehSecurAccess" revision="refs/tags/23.23.153.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_OVIR_OffVehInfrastructure" path="ImpArch/SIG_OVIR_OffVehInfrastructure" revision="refs/tags/27.27.181.1p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_PBCR_PropulsionBehCoord" path="ImpArch/SIG_PBCR_PropulsionBehCoord" revision="refs/tags/27.27.179.3p0_20250211" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_PBKR_ParkBrk" path="ImpArch/SIG_PBKR_ParkBrk" revision="refs/tags/27.27.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_PCOR_PowerElectronicsCooling" path="ImpArch/SIG_PCOR_PowerElectronicsCooling" revision="refs/tags/26.26.178.1p0_20241022" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_PMDR_PowerMode" path="ImpArch/SIG_PMDR_PowerMode" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_PSAR_PSAR" path="ImpArch/SIG_PSAR_PSAR" revision="refs/tags/26.26.175.3p0_20240422" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_RFA_RFA" path="ImpArch/SIG_RFA_RFA" revision="refs/tags/27.27.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TCAR_ThermalCoordinationArbitration" path="ImpArch/SIG_TCAR_ThermalCoordinationArbitration" revision="refs/tags/26.26.181.4p0_20250708" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TFAR_ThermalFlowActuator" path="ImpArch/SIG_TFAR_ThermalFlowActuator" revision="refs/tags/26.26.181.4p0_20250707" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TFTR_TransFluidTemp" path="ImpArch/SIG_TFTR_TransFluidTemp" revision="refs/tags/27.27.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TGRR_TransGear" path="ImpArch/SIG_TGRR_TransGear" revision="refs/tags/27.27.180.0p0_20250304" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_THAR_ThermalHeaterActuator" path="ImpArch/SIG_THAR_ThermalHeaterActuator" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TLRR_Trailer" path="ImpArch/SIG_TLRR_Trailer" revision="refs/tags/26.26.177.3p0_20240828" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TMCR_ThermalMeasurementCoolant" path="ImpArch/SIG_TMCR_ThermalMeasurementCoolant" revision="refs/tags/26.26.181.2p0_20250610" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TMRR_ThermalMeasurementRefrigerant" path="ImpArch/SIG_TMRR_ThermalMeasurementRefrigerant" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TMSR_TimeSources" path="ImpArch/SIG_TMSR_TimeSources" revision="refs/tags/27.27.181.1p0_20250605" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TODR_TimeOfDay" path="ImpArch/SIG_TODR_TimeOfDay" revision="refs/tags/27.27.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TOSR_TransOutputSpeed" path="ImpArch/SIG_TOSR_TransOutputSpeed" revision="refs/tags/24.24.168.4p0_20221207" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TPDR_ThermalPerformanceDiagnostic" path="ImpArch/SIG_TPDR_ThermalPerformanceDiagnostic" revision="refs/tags/26.26.181.3p0_20250619" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TPWR_ThermalPowerMgmt" path="ImpArch/SIG_TPWR_ThermalPowerMgmt" revision="refs/tags/24.24.166.2p0_20220616" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TRGR_TransRangeState" path="ImpArch/SIG_TRGR_TransRangeState" revision="refs/tags/27.27.180.4p0_20250508" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TRKR_LegislatedParamTracker" path="ImpArch/SIG_TRKR_LegislatedParamTracker" revision="refs/tags/27.27.180.1p0_20250424" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TSKR_ApplTaskScheduler" path="ImpArch/SIG_TSKR_ApplTaskScheduler" revision="refs/tags/27.27.177.3p0_20240904" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TVAR_ThermalValveActuator" path="ImpArch/SIG_TVAR_ThermalValveActuator" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_TYPES_Library" path="ImpArch/SIG_TYPES_Library" revision="refs/tags/24.24.181.0p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_UPAR_UsagePredictionAction" path="ImpArch/SIG_UPAR_UsagePredictionAction" revision="refs/tags/27.27.180.3p0_20250423" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_UTLR_UTLRRing" path="ImpArch/SIG_UTLR_UTLRRing" revision="refs/tags/20.20.137.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_Units_Library" path="ImpArch/SIG_Units_Library" revision="refs/tags/00.00.180.3p0_20250428" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VFB" path="ImpArch/SIG_VFB" revision="refs/tags/27.27.180.3p0_20250411" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VHMR_AV_HealthMgr" path="ImpArch/SIG_VHMR_AV_HealthMgr" revision="refs/tags/27.27.178.3p0_20241114" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VITR_VoltageCurrentTemp" path="ImpArch/SIG_VITR_VoltageCurrentTemp" revision="refs/tags/27.27.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VPCR_VehPerfCapability" path="ImpArch/SIG_VPCR_VehPerfCapability" revision="refs/tags/20.20.145.0p0_20221123" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VSPR_VehSpd" path="ImpArch/SIG_VSPR_VehSpd" revision="refs/tags/27.27.180.2p0_20250327" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VS_VehState" path="ImpArch/SIG_VS_VehState" revision="refs/tags/27.27.177.3p0_20240906" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_VTHR_VehicleThermalManager" path="ImpArch/SIG_VTHR_VehicleThermalManager" revision="refs/tags/25.25.180.4p0_20250506" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SIG_WCSR_WirelessCellSensing" path="ImpArch/SIG_WCSR_WirelessCellSensing" revision="refs/tags/25.25.181.2p0_20250623" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_ACER_ActcmdCompCtrl_DSC" path="ImpArch/SWC_ACER_ActcmdCompCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250624" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_ACER_CompLIN_DIDs_DSC" path="ImpArch/SWC_ACER_CompLIN_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230906" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_ACER_LIN_ACEC_DSC" path="ImpArch/SWC_ACER_LIN_ACEC_DSC" revision="refs/tags/26.26.181.1p0_20250604_1" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_BTMR_EstPrecond_DSC" path="ImpArch/SWC_BTMR_EstPrecond_DSC" revision="refs/tags/26.26.178.1p0_20241106" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_BTMR_TempCtrl_DSC" path="ImpArch/SWC_BTMR_TempCtrl_DSC" revision="refs/tags/25.26.177.0p0_20240723" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_OATR_AmbTempRegDIDs_DSC" path="ImpArch/SWC_OATR_AmbTempRegDIDs_DSC" revision="refs/tags/25.25.180.2p0_20250408" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_OATR_IA_OAT_DSC" path="ImpArch/SWC_OATR_IA_OAT_DSC" revision="refs/tags/26.26.181.1p0_20250527" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_OATR_PerfDiagBEV_DSC" path="ImpArch/SWC_OATR_PerfDiagBEV_DSC" revision="refs/tags/25.25.181.3p0_20250625" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_OATR_SnsrProcessingBEV_DSC" path="ImpArch/SWC_OATR_SnsrProcessingBEV_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_PCOR_APM_ClngTrgt_DSC" path="ImpArch/SWC_PCOR_APM_ClngTrgt_DSC" revision="refs/tags/26.26.178.1p0_20241107" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_PCOR_APM_CoolReq_DSC" path="ImpArch/SWC_PCOR_APM_CoolReq_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_PCOR_Invtr_ClngTrgt_DSC" path="ImpArch/SWC_PCOR_Invtr_ClngTrgt_DSC" revision="refs/tags/26.26.178.1p0_20241107" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_PCOR_OBCM_ClngTrgt_DSC" path="ImpArch/SWC_PCOR_OBCM_ClngTrgt_DSC" revision="refs/tags/26.26.178.1p0_20241107" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ActcmdClntCoord_DSC" path="ImpArch/SWC_TCAR_ActcmdClntCoord_DSC" revision="refs/tags/26.26.181.3p0_20250623" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ActcmdRfrgCoord_DSC" path="ImpArch/SWC_TCAR_ActcmdRfrgCoord_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ArbOptmInput_DSC" path="ImpArch/SWC_TCAR_ArbOptmInput_DSC" revision="refs/tags/26.26.181.2p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ArbOptmOutput_DSC" path="ImpArch/SWC_TCAR_ArbOptmOutput_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ArbOptmQp_DSC" path="ImpArch/SWC_TCAR_ArbOptmQp_DSC" revision="refs/tags/26.26.180.4p0_20250507" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ArbSysConstraints_DSC" path="ImpArch/SWC_TCAR_ArbSysConstraints_DSC" revision="refs/tags/26.26.181.2p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_Common_DSC" path="ImpArch/SWC_TCAR_Common_DSC" revision="refs/tags/26.26.181.4p0_20250703" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_CoordDtrmnState_DSC" path="ImpArch/SWC_TCAR_CoordDtrmnState_DSC" revision="refs/tags/26.26.181.3p0_20250701" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_CoordSolverBndry_DSC" path="ImpArch/SWC_TCAR_CoordSolverBndry_DSC" revision="refs/tags/26.26.181.3p0_20250701" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_CoordStaticMdl_DSC" path="ImpArch/SWC_TCAR_CoordStaticMdl_DSC" revision="refs/tags/26.26.181.3p0_20250701" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_CoordStaticSolver_DSC" path="ImpArch/SWC_TCAR_CoordStaticSolver_DSC" revision="refs/tags/26.26.181.3p0_20250701" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SetptCabCndClntTgt_DSC" path="ImpArch/SWC_TCAR_SetptCabCndClntTgt_DSC" revision="refs/tags/26.26.179.4p0_20250225" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SetptClntTgt_DSC" path="ImpArch/SWC_TCAR_SetptClntTgt_DSC" revision="refs/tags/26.26.181.3p0_20250627" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SetptRfrgTgt_DSC" path="ImpArch/SWC_TCAR_SetptRfrgTgt_DSC" revision="refs/tags/26.26.181.3p0_20250627" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnAirCalcs_DSC" path="ImpArch/SWC_TCAR_SpvsnAirCalcs_DSC" revision="refs/tags/26.26.180.2p0_20250408" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnChlr2Crtn_DSC" path="ImpArch/SWC_TCAR_SpvsnChlr2Crtn_DSC" revision="refs/tags/24.24.177.0p0_20250124" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnChlrCrtn_DSC" path="ImpArch/SWC_TCAR_SpvsnChlrCrtn_DSC" revision="refs/tags/26.26.180.3p0_20250422" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnCondHtrCrtn_DSC" path="ImpArch/SWC_TCAR_SpvsnCondHtrCrtn_DSC" revision="refs/tags/26.26.181.3p0_20250623" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnEvapCrtn_DSC" path="ImpArch/SWC_TCAR_SpvsnEvapCrtn_DSC" revision="refs/tags/26.26.181.3p0_20250624" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnExtCondCrtn_DSC" path="ImpArch/SWC_TCAR_SpvsnExtCondCrtn_DSC" revision="refs/tags/26.26.180.3p0_20250422" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnFdbkCtrl_DSC" path="ImpArch/SWC_TCAR_SpvsnFdbkCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnRfrgCalcs_DSC" path="ImpArch/SWC_TCAR_SpvsnRfrgCalcs_DSC" revision="refs/tags/26.26.181.3p0_20250623" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnSpvsdOutput_DSC" path="ImpArch/SWC_TCAR_SpvsnSpvsdOutput_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_SpvsnSysLmt_DSC" path="ImpArch/SWC_TCAR_SpvsnSysLmt_DSC" revision="refs/tags/26.26.181.3p0_20250624" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmSysMode_DSC" path="ImpArch/SWC_TCAR_ThrmSysMode_DSC" revision="refs/tags/23.23.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlCabinHX_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlCabinHX_DSC" revision="refs/tags/24.24.177.0p0_20250124" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlChiller1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlChiller1_DSC" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlChiller2_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlChiller2_DSC" revision="refs/tags/24.24.177.0p0_20240928" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlClntHeater1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlClntHeater1_DSC" revision="refs/tags/26.26.179.4p0_20250225" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlClntHeater2_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlClntHeater2_DSC" revision="refs/tags/26.26.181.2p0_20250612" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlCmnHS_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlCmnHS_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlCmnLS_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlCmnLS_DSC" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlCompressor1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlCompressor1_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlCondHtr1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlCondHtr1_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlEvap1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlEvap1_DSC" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlExtCond1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlExtCond1_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlIHX_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlIHX_DSC" revision="refs/tags/26.26.179.1p0_20250106" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TCAR_ThrmlMdlLTR1_DSC" path="ImpArch/SWC_TCAR_ThrmlMdlLTR1_DSC" revision="refs/tags/26.26.180.3p0_20250423" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ActcmdElecPriPmpCtrl_DSC" path="ImpArch/SWC_TFAR_ActcmdElecPriPmpCtrl_DSC" revision="refs/tags/26.26.180.2p0_20250407" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ActcmdElecSecPmpCtrl_DSC" path="ImpArch/SWC_TFAR_ActcmdElecSecPmpCtrl_DSC" revision="refs/tags/26.26.180.2p0_20250407" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ActcmdElecTerPmpCtrl_DSC" path="ImpArch/SWC_TFAR_ActcmdElecTerPmpCtrl_DSC" revision="refs/tags/24.24.177.0p0_20240928" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ElecPriPmpDIDs_DSC" path="ImpArch/SWC_TFAR_ElecPriPmpDIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ElecSecPmpDIDs_DSC" path="ImpArch/SWC_TFAR_ElecSecPmpDIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_ElecTerPmpDIDs_DSC" path="ImpArch/SWC_TFAR_ElecTerPmpDIDs_DSC" revision="refs/tags/24.24.172.0p0_20230920" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_LIN_CCCP_DSC" path="ImpArch/SWC_TFAR_LIN_CCCP_DSC" revision="refs/tags/24.24.175.0p0_20240726" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_LIN_ESSCP_DSC" path="ImpArch/SWC_TFAR_LIN_ESSCP_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TFAR_LIN_PECP_DSC" path="ImpArch/SWC_TFAR_LIN_PECP_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_ActcmdHtr2Ctrl_DSC" path="ImpArch/SWC_THAR_ActcmdHtr2Ctrl_DSC" revision="refs/tags/24.24.177.0p0_20240928" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_ActcmdHtrCtrl_DSC" path="ImpArch/SWC_THAR_ActcmdHtrCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_Htr2_DIDs_DSC" path="ImpArch/SWC_THAR_Htr2_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_Htr_DIDs_DSC" path="ImpArch/SWC_THAR_Htr_DIDs_DSC" revision="refs/tags/23.23.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_LIN_CEH1_DSC" path="ImpArch/SWC_THAR_LIN_CEH1_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_THAR_LIN_CEH2_DSC" path="ImpArch/SWC_THAR_LIN_CEH2_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_ClntTempRatDiag_DSC" path="ImpArch/SWC_TMCR_ClntTempRatDiag_DSC" revision="refs/tags/26.26.180.3p0_20250423" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempA_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempA_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempB_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempB_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempC_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempC_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempD_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempD_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempE_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempE_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempF_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempF_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempG_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempG_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_CoolTempH_DIDs_DSC" path="ImpArch/SWC_TMCR_CoolTempH_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempA_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempA_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempB_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempB_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempC_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempC_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempD_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempD_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempE_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempE_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempF_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempF_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempG_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempG_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_IA_ClntTempH_DSC" path="ImpArch/SWC_TMCR_IA_ClntTempH_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMCR_SpvsnClntSnsrs_DSC" path="ImpArch/SWC_TMCR_SpvsnClntSnsrs_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgPresA_DSC" path="ImpArch/SWC_TMRR_IA_RfrgPresA_DSC" revision="refs/tags/26.26.181.3p0_20250702" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgPresB_DSC" path="ImpArch/SWC_TMRR_IA_RfrgPresB_DSC" revision="refs/tags/26.26.181.3p0_20250702" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgPresC_DSC" path="ImpArch/SWC_TMRR_IA_RfrgPresC_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempA_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempA_DSC" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempB_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempB_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempC_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempC_DSC" revision="refs/tags/26.26.181.0p0_20250521" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempD_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempD_DSC" revision="refs/tags/26.26.181.0p0_20250521" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempE_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempE_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempF_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempF_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempG_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempG_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_IA_RfrgTempH_DSC" path="ImpArch/SWC_TMRR_IA_RfrgTempH_DSC" revision="refs/tags/26.26.181.0p0_20250521" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_PresDIDs_DSC" path="ImpArch/SWC_TMRR_PresDIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempA_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempA_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempB_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempB_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempC_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempC_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempD_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempD_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempE_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempE_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempF_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempF_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempG_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempG_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RefTempH_DIDs_DSC" path="ImpArch/SWC_TMRR_RefTempH_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RfrgPresRatDiag_DSC" path="ImpArch/SWC_TMRR_RfrgPresRatDiag_DSC" revision="refs/tags/26.26.179.0p0_20241213" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_RfrgTempRatDiag_DSC" path="ImpArch/SWC_TMRR_RfrgTempRatDiag_DSC" revision="refs/tags/26.26.179.3p0_20250207" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TMRR_SpvsnRfrgSnsrs_DSC" path="ImpArch/SWC_TMRR_SpvsnRfrgSnsrs_DSC" revision="refs/tags/26.26.180.2p0_20250404" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdCondHtrFlowVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdCondHtrFlowVlvCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdCoolBypsVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdCoolBypsVlvCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdDynExpVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdDynExpVlvCtrl_DSC" revision="refs/tags/26.26.180.2p0_20250402" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdExtCondFlowVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdExtCondFlowVlvCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdMainCoolVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdMainCoolVlvCtrl_DSC" revision="refs/tags/26.26.180.2p0_20250409" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdPriChilExpVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdPriChilExpVlvCtrl_DSC" revision="refs/tags/26.26.181.3p0_20250626" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdPriEvapExpVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdPriEvapExpVlvCtrl_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ActcmdSecChilExpVlvCtrl_DSC" path="ImpArch/SWC_TVAR_ActcmdSecChilExpVlvCtrl_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_CondHtrFlowVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_CondHtrFlowVlv_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_DynExpVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_DynExpVlv_DIDs_DSC" revision="refs/tags/24.24.177.0p0_20250124" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_ExtCondFlowVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_ExtCondFlowVlv_DIDs_DSC" revision="refs/tags/24.24.172.0p0_20230907" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_LIN_IRM_DSC" path="ImpArch/SWC_TVAR_LIN_IRM_DSC" revision="refs/tags/26.26.181.1p0_20250603_1" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_LIN_MCV_DSC" path="ImpArch/SWC_TVAR_LIN_MCV_DSC" revision="refs/tags/26.26.181.1p0_20250604" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_LIN_PEEV_DSC" path="ImpArch/SWC_TVAR_LIN_PEEV_DSC" revision="refs/tags/26.26.181.1p0_20250603" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_LIN_SCEV_DSC" path="ImpArch/SWC_TVAR_LIN_SCEV_DSC" revision="refs/tags/26.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_MainCoolVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_MainCoolVlv_DIDs_DSC" revision="refs/tags/25.25.172.0p0_20230920" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_PriChilExpVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_PriChilExpVlv_DIDs_DSC" revision="refs/tags/25.26.181.2p0_20250616" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_PriCoolVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_PriCoolVlv_DIDs_DSC" revision="refs/tags/25.26.181.2p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_PriEvapExpVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_PriEvapExpVlv_DIDs_DSC" revision="refs/tags/25.26.181.2p0_20250616" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_TVAR_SecChilExpVlv_DIDs_DSC" path="ImpArch/SWC_TVAR_SecChilExpVlv_DIDs_DSC" revision="refs/tags/25.26.181.2p0_20250616" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_VTHR_3rdRwClntSysServFill_DSC" path="ImpArch/SWC_VTHR_3rdRwClntSysServFill_DSC" revision="refs/tags/25.25.180.4p0_20250507" version-override="false"/>
+<project is-dependency="true" name="ECS-ImpArch-SWC_VTHR_BEV_CoolantSysServFill_DSC" path="ImpArch/SWC_VTHR_BEV_CoolantSysServFill_DSC" revision="refs/tags/25.26.181.2p0_20250618" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_AppSuite" path="tool/TOOL_AppSuite" revision="refs/tags/00.00.181.0p0_20250708" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_MDK_Reference" path="tool/TOOL_MDK_Reference" revision="refs/tags/00.00.181.0p0_20250617" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_ROOT" path="tool/TOOL_ROOT" revision="refs/tags/00.00.180.0p0_20250312" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_SysMLProfile" path="tool/TOOL_SysMLProfile" revision="refs/tags/00.00.137.0p0_20180717" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_UMLActionsProfile" path="tool/TOOL_UMLActionsProfile" revision="refs/tags/00.00.128.0p0_20170223_1" version-override="false"/>
+<project is-dependency="true" name="ECS-tool-TOOL_VPPS" path="tool/TOOL_VPPS" revision="refs/tags/27.27.180.0p0_20250416" version-override="false"/>
+<ingredient name="ECS-ImpArch-LIB_SWIL_CFG_INCL" remote="origin_github_GM-SDV-EP" path="ImpArch/SWIL_CFG_INCL"/>
+<ingredient name="ECS-ImpArch-SWC_LIBR_Timers_DSC" path="ImpArch/SWC_LIBR_Timers_DSC" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-LIB-HWLB_FUNC" remote="origin_github_GM-SDV-EP" path="ImpArch/HWLB_FUNC"/>
+<ingredient name="ECS-LIB-HWLB_TYP" remote="origin_github_GM-SDV-EP" path="ImpArch/HWLB_TYP"/>
+<ingredient name="ECS-LIB-LIB_CYPH_IF" remote="origin_github_GM-SDV-EP" path="ImpArch/CYPH_IF"/>
+<ingredient name="ECS-LIB-LIB_FLTR_FUNC_SRC" remote="origin_github_GM-SDV-EP" path="ImpArch/FLTR_FUNC"/>
+<ingredient name="ECS-LIB-LIB_LIBR_FUNC_SRC" remote="origin_github_GM-SDV-EP" path="ImpArch/LIBR_FUNC"/>
+<ingredient name="ECS-LIB-LIB_UTLR_FUNC_SRC" remote="origin_github_GM-SDV-EP" path="ImpArch/UTLR_FUNC"/>
+<ingredient name="ECS-LIB-LIB_VCTR_FUNC_SRC" remote="origin_github_GM-SDV-EP" path="ImpArch/VCTR_FUNC"/>
+<ingredient name="ECS-ML-TOOL_Master_Lists_Calibration" remote="origin_github_GM-SDV-EP" path="ImpArch/Master_Lists_Calibration"/>
+<ingredient name="ECS-ML-TOOL_Master_Lists_Diagnostic" remote="origin_github_GM-SDV-EP" path="ImpArch/Master_Lists_Diagnostic"/>
+<ingredient name="ECS-ML-TOOL_Master_Lists_MMT" remote="origin_github_GM-SDV-EP" path="ImpArch/Master_Lists_MMT"/>
+<ingredient name="ECS-ML-TOOL_Master_Lists_RSMT_Calibration" remote="origin_github_GM-SDV-EP" path="ImpArch/Master_Lists_RSMT_Calibration"/>
+<ingredient name="ECS-ML-TOOL_Master_Lists_Service" remote="origin_github_GM-SDV-EP" path="ImpArch/Master_Lists_Service"/>
+<ingredient name="ECS-tool-TOOL_SBT_ASTA" path="tool/TOOL_SBT_ASTA" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_Bin" path="tool/Bin" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_BuildScripts" path="tool/BuildScripts" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_CSCPC" path="tool/CSCPC" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_CSCP_stubs_test" path="ImpArch/CSCP_stubs_test" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_CodeGenerationScripts" path="tool/CodeGenerationScripts" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_Debugger" path="tool/Debugger" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_ListsAndToolsCompatibility" path="tool/ListsAndToolsCompatibility" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_Make_files" path="tool/Make_files" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_perlGM" path="tool/perlGM" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_SIL_Scripts" path="tool/SIL_Scripts" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_tool_data_lib" path="tool/tool_data_lib" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_TSKR_Config" path="tool/TSKR_Config" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_UtilityScripts" path="tool/UtilityScripts" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_XXXR_CFG" path="tool/XXXR_CFG" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SBT_XXXR_Test" path="tool/XXXR_Test" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SSQ_BuildScripts" path="tool/TOOL_SSQ_BuildScripts" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SSQ_BuildConfigCommon" path="tool/TOOL_SSQ_BuildConfigCommon" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SSQ_BuildConfigStandardStream" path="tool/TOOL_SSQ_BuildConfigStandardStream" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_SSQ_BuildConfigMetricStream" path="tool/TOOL_SSQ_BuildConfigMetricStream" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_UTT_CppUTest" path="tool/TOOL_UTT_CppUTest" remote="origin_github_GM-SDV-EP"/>
+<ingredient name="ECS-tool-TOOL_QTAP_TestMetricsBlockingCfgs" remote="origin_github_GM-SDV-EP" path="tool/TOOL_QTAP_TestMetricsBlockingCfgs"/>
+<ingredient name="ECS-LIB-LIB_BddUTest_TST" path="tool/LIB_BddUTest_TST" remote="origin_github_GM-SDV-EP"/>
+</manifest>
+<!--MDS Errors: FileError:/sfs3/builds/pl/27.27.181/../../Apps/Rhapsody8.1.5/Share/Settings/SysMLPerspectives/SysMLPerspectives.sbs!-->

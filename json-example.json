@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "type": "string",
+      "defaultValue": "eastus"
+    }
+  },
+  "variables": {
+    "COMMENT_1": "❌ VIOLATION: Environment-specific names hardcoded in variables",
+    "appServicePlanName": "myapp-prod-asp-eastus",
+    "webAppName": "myapp-production-webapp",
+    "sqlServerName": "myapp-prod-sql-eastus",
+    "storageAccountName": "myappprodstgeastus",
+    "keyVaultName": "myapp-prod-kv-eastus",
+
+    "COMMENT_2": "❌ VIOLATION: Hardcoded admin credentials",
+    "sqlAdminLogin": "sqladminprod",
+    "sqlAdminPassword": "ProdSQL@dm1n2024!",
+
+    "COMMENT_3": "❌ VIOLATION: Connection string with embedded credentials",
+    "appDatabaseConnectionString": "Server=tcp:myapp-prod-sql-eastus.database.windows.net,1433;Database=MyAppProdDB;User ID=sqladminprod;Password=ProdSQL@dm1n2024!;Encrypt=true;"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Sql/servers",
+      "apiVersion": "2022-05-01-preview",
+      "name": "[variables('sqlServerName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "administratorLogin": "[variables('sqlAdminLogin')]",
+        "administratorLoginPassword": "[variables('sqlAdminPassword')]"
+      }
+    },
+    {
+      "type": "Microsoft.Web/sites",
+      "apiVersion": "2022-09-01",
+      "name": "[variables('webAppName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "siteConfig": {
+          "appSettings": [
+            {
+              "COMMENT": "❌ VIOLATION: App settings with plain-text secrets (should use Key Vault references)",
+              "name": "DATABASE_CONNECTION_STRING",
+              "value": "[variables('appDatabaseConnectionString')]"
+            },
+            {
+              "name": "STORAGE_ACCOUNT_KEY",
+              "value": "dGVzdGtleXRlc3RrZXl0ZXN0a2V5dGVzdGtleXRlc3RrZXl0ZXN0a2V5dGVzdGtleXQ=="
+            },
+            {
+              "name": "JWT_SIGNING_KEY",
+              "value": "hardcoded-jwt-secret-for-production-app-2024"
+            },
+            {
+              "name": "THIRD_PARTY_API_KEY",
+              "value": "live_api_key_1234567890abcdefghij"
+            },
+            {
+              "name": "ENVIRONMENT",
+              "value": "production"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2023-01-01",
+      "name": "[variables('storageAccountName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2"
+    }
+  ]
+}
