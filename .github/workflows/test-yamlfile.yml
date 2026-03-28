@@ -1,0 +1,58 @@
+name: test-workflow
+on:
+  workflow_dispatch:
+    #input parameters are required to execute the workflow
+    inputs:
+      dispatch_id:
+        description: 'Dispatch ID required for tracking'
+        required: true
+        type: string
+        default: '20b52030-9ead-4b41-b665-7791de9afae0'
+      workitem_site:
+        description: 'Work item'
+        required: true
+        type: string
+        default: ' '
+      workitem_ticket:
+        description: 'Work item ticket number'
+        required: true
+        type: string
+        default: 'test-1870'
+
+  pull_request:
+    branches:
+      - '**'  # Trigger on pull requests to any branch  
+
+run-name: ${{ github.workflow }} -> trigger by ${{ github.actor }}
+#define environment variable
+permissions:
+  contents: write
+  pull-requests: write
+  pages: write
+  id-token: write
+env:
+  MANIFESTFILEFORSTREAM: "manifest-for-stream.xml"
+  MANIFESTWITHDEPS: "manifest-with-dependencies.xml"
+  RECIPEMANIFEST: "manifest.xml"
+  PROJ_DIR: ${{ github.workspace }}
+  USER_ID: ${{ github.actor }}
+
+jobs:
+  Test-workflow:
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        shell: bash
+    container:
+      image: sadasdfsdfsdfsd2345@123
+      credentials:
+        username: ${{ vars.AZURE_CLIENT_ID }}
+        password: ${{ secrets.AZURE_CLIENT_SECRET }}
+      options: --privileged -u github
+    outputs:
+      stream: 'sdfasdf'
+
+    steps:
+      #Checking out repository
+      - name: Checkout
+        uses: actions/checkout@v4
